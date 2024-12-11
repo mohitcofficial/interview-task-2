@@ -158,7 +158,13 @@ Contains publicly accessible files used by the application.
     -`404.css`: Stylesheet of 404 page -`authorized`: admin & user
   - ...
 
+- **pages image/**
 ![image alt](https://github.com/mohitcofficial/interview-task-2/blob/ef8bdf9de749005d7a58015ec3ba00cd26a01af0/frontend/Screenshot%20(402).png)
+![image alt](https://github.com/mohitcofficial/interview-task-2/blob/6fb71e3f64046c265eae324848650a7dde86beb2/frontend/Screenshot%20(400).png)
+![image alt](https://github.com/mohitcofficial/interview-task-2/blob/6fb71e3f64046c265eae324848650a7dde86beb2/frontend/Screenshot%20(403).png)
+![image alt](https://github.com/mohitcofficial/interview-task-2/blob/6fb71e3f64046c265eae324848650a7dde86beb2/frontend/Screenshot%20(405).png)
+![image alt](https://github.com/mohitcofficial/interview-task-2/blob/6fb71e3f64046c265eae324848650a7dde86beb2/frontend/Screenshot%20(406).png)
+![image alt](https://github.com/mohitcofficial/interview-task-2/blob/6fb71e3f64046c265eae324848650a7dde86beb2/frontend/Screenshot%20(407).png)
 
 - **store/**: Stores Redux related stuff for state management
 
