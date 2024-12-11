@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.leftContainer {
+  background-color: #a4c4b5;
+  height: 100%;
+  width: 50%;
+}
+
+.rightContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.marginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}

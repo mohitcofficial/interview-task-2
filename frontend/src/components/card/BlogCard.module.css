@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0 0 6px rgb(206, 206, 206);
+  transition: transform 250ms ease-in-out;
+}
+.container:hover {
+  box-shadow: 0 0 12px rgb(185, 185, 185);
+  transform: scale(1.015);
+}
+
+.image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--text-color);
+  width: 90%;
+  margin: 18px 0 8px 0;
+}
+
+.content {
+  width: 90%;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: var(--text-color-light);
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+.readMoreButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 12px 24px;
+  color: var(--white-color);
+  border-radius: 28px;
+  cursor: pointer;
+  background-color: rgba(233, 157, 24, 1);
+  transition: background-color 0.4s ease;
+  margin: 24px 0;
+  font-size: 15px;
+  width: 70%;
+}
+
+.readMoreButton:hover {
+  background: linear-gradient(
+    to right,
+    var(--primary-color) 50%,
+    black 50%
+  ); /* Reverse gradient */
+  background-size: 200% 100%;
+  transition: background-position 0.4s;
+  background-position: -100% 0;
+  color: white;
+}

@@ -1,0 +1,46 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.label {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  padding: 6px 0;
+  border-bottom: 1px solid #000;
+  font-family: inherit;
+}
+.textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  padding: 6px;
+  font-family: inherit;
+  font-size: 15px;
+  border: 1px solid #000;
+  resize: none;
+  overflow: auto;
+  height: 200px;
+}
+
+.createButton {
+  width: 120px;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 6px 0;
+  margin: 12px 0;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: var(--primary-color-dark);
+}
