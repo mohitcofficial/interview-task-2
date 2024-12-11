@@ -158,6 +158,8 @@ Contains publicly accessible files used by the application.
     -`404.css`: Stylesheet of 404 page -`authorized`: admin & user
   - ...
 
+![image alt](https://github.com/mohitcofficial/interview-task-2/blob/ef8bdf9de749005d7a58015ec3ba00cd26a01af0/frontend/Screenshot%20(402).png)
+
 - **store/**: Stores Redux related stuff for state management
 
   - `store.js`: Contains the store configurations.
